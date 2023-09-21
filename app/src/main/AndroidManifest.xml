@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="avantech.tracker">
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Tracker"
+        android:usesCleartextTraffic="true"
+        tools:targetApi="31">
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyBObW1zr3WGSpBY_yvSiiJg3Hxw5D7R2K8" />
+        <activity
+            android:name=".add.AddSchoolActivity"
+            android:exported="false" />
+        <activity
+            android:name=".view.ViewBusAttendantActivity"
+            android:exported="false" />
+        <activity
+            android:name=".add.AddBusAttendantActivity"
+            android:exported="false" />
+        <activity
+            android:name=".view.ViewBusActivity"
+            android:exported="false" />
+        <activity
+            android:name=".add.AddBusActivity"
+            android:exported="false" />
+        <activity
+            android:name=".view.ViewStudentActivity"
+            android:exported="false" />
+        <activity
+            android:name=".add.AddStudentActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ParentActivity"
+            android:exported="false" />
+        <activity
+            android:name=".BusAttendantActivity"
+            android:exported="false" />
+        <activity
+            android:name=".SchoolHomeActivity"
+            android:exported="true">
+        </activity>
+        <activity
+            android:name=".LoginActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

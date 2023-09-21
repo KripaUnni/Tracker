@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "901866646347",
+    "project_id": "tracker-af6b5",
+    "storage_bucket": "tracker-af6b5.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:901866646347:android:c25def1f03892da8fe16ce",
+        "android_client_info": {
+          "package_name": "avantech.tracker"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "901866646347-gmuomuf5h0epf29sdvoa8g819gpov367.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAWgZE5Cf7otDeGno5bzG4U2TdV64uBJ8c"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "901866646347-gmuomuf5h0epf29sdvoa8g819gpov367.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
